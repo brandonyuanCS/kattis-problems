@@ -1,0 +1,9 @@
+name: Submarine Materials
+uuid: 902b351b-448a-47f5-83af-9f864bd5b26b
+author: Brandon Yuan
+source: CSCE 430 Spring 2026
+license: cc by-sa
+rights_owner: Brandon Yuan
+limits:
+  time_multiplier: 1.0
+  time_safety_margin: 2.0

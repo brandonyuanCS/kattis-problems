@@ -1,0 +1,32 @@
+\problemname{City in Distress}
+
+When the city of Dallas traded away their superstar, fans were shocked. So much so that the entire city of Dallas lost their ability to speak cohesively. Instead, citizens started communicating in rambling, incoherent messages, where each message is just a string of letters.
+
+Alarmed, the city realized they had no way of interpreting what their residents were saying. They decided to build a system to score the agreeability of certain phrases. The score of a phrase is the number of people who exclaimed a message beginning with that phrase. This allowed the city to gauge how important a certain phrase was to the general population.
+
+\section*{Input}
+
+The first line contains an integer $N$ ($1 \le N \le 100,000$), the number of messages.
+
+The next $N$ lines each contain a string $s_i$ and an integer $w_i$, separated by a space, representing a message and the number of people that exclaimed it.
+
+\begin{itemize}
+    \item $s_i$ consists only of lowercase English letters
+    \item $1 \le |s_i| \le 20$
+    \item $1 \le w_i \le 1,000,000$
+\end{itemize}
+
+The next line contains an integer $Q$ ($1 \le Q \le 100,000$), the number of queries by the city.
+
+The following $Q$ lines each contain a string $p_i$, representing a phrase to be queried.
+
+\begin{itemize}
+    \item $p_i$ consists only of lowercase English letters
+    \item $1 \le |p_i| \le 20$
+\end{itemize}
+
+\section*{Output}
+
+For each query $p_i$, output a single integer that represents the score of that phrase.
+
+If no messages match a query, output $0$.
